@@ -1,0 +1,47 @@
+.products-page{
+    display: flex;
+    /* background-color: rgb(243, 245, 241); */
+    min-height:100vh;
+    justify-content: space-between;
+    width: 250px;
+
+}
+.side-bar{
+    margin-left: 0rem;
+    width: 20vw;
+    height:100vh;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    margin-top: 138px;
+    /* justify-content: space-between; */
+}
+.filter-container{
+    padding: 2.0rem;
+    justify-self:center;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.heading-3{
+    align-self:center;
+    padding: 1.2rem;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rating{
+    font-family: 'Times New Roman', Times, serif;
+}
+.radio{
+    margin-right:10px;
+}
+
+.home-product{
+   margin-left: 250px;
+   display: flex;
+}
+.loader-container{
+    align-self: center;
+    position: absolute;
+    left: 50rem;
+}

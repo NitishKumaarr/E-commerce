@@ -1,0 +1,30 @@
+.price-container{
+    height: fit-content;
+    background-color: rgb(205, 204, 204);
+    padding:2rem;
+    gap: 1.7rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px black;
+    position: fixed;
+    right: 10%;
+    top:20%;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+.place-order{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.marquee-style{
+    color: green;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
